@@ -1,39 +1,49 @@
+:root{
+    --color1: rgb(24,144,218);
+    --color2: rgb(232,232,232);
+    --color3: rgb(152,152,152);
+    --fontColor1: black;
+    --fontColor2: white;
+}
 *{
     box-sizing: border-box;
-    margin: 0;
-    border: 0;
+    margin: 0px;
+    border: 0px;
 }
 html{
     font-size: 62.5%;
     font-family: -apple-system, BlinkMacSystemFont;
 }
 header{
-    width: 100%;
-    height: 80px;
-    background-color: rgb(24, 144, 218)
+    display: flex;
+    align-items: center;
+    width: 100vw;    
+    height: 10vh;
+    background-color: var(--color1);
+}
+nav{
+    display: flex;
+    align-items:baseline
 }
 .main-nav{
+    display: inline-flex;
     list-style: none;
-    text-align: right;
-    }
+    font-size: 35px;
+    color: var(--fontColor2);
+}
 .main-nav li{
-    display: inline-block; 
-    color: white;
-    font-size: 20px;
-    margin: 28.5px 0px;
-    padding-left: 5px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 .content{
-    background-color: rgb(232, 232, 232);
-    width: 100%;
-    height: 1000px;
+    background-color: var(--color2);
+    width: 100vw;
+    height: 85vh;
 }
 .content--opciones{
     height: 100%;
     display: inline-block;
     width: 25%;
-    background-color: rgb(180, 180,180);
+    background-color: var(--color3);
 }
 .option-nav{
     list-style: none;
@@ -41,8 +51,8 @@ header{
     padding: 0px;
 }
 .option-nav li{
-    background-color: rgb(232, 232, 232) ;
-    border: 2px solid black;
+    background-color: var(--color2) ;
+    border: 2px solid var(--fontColor1);
     border-radius: 10px;
     margin-left: 20%;
     margin-right: 20%;
@@ -51,11 +61,15 @@ header{
     height: 200px;
 }
 .footer{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 5vh;
     background-color: white;
     border: 2px solid rgb(152, 152,152);
 }
 .footer nav{
+    justify-content: center;
     font-size: 1.9rem;
-    text-align: center;
 }
