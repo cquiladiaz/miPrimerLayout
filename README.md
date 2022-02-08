@@ -1,8 +1,9 @@
 # miPrimerLayout
-Este es un ejercicio de Platzi, consite en hacer un Layout básico utilizando las herramientas aprendidas en el curso del HTML y CSS. Se ponen en practica los conceptos de etiquetas, clases, margin, padding, display y algunas mas.
 
-24/12/21
+Este es un ejercicio de Platzi, consiste en hacer un Layout básico utilizando las herramientas aprendidas en el curso del HTML y CSS. Se ponen en practica los conceptos de etiquetas, clases, margin, padding, display y algunas mas. NO es responsivo y su version estable es en desktop
 
-Estaremos haciendo pruebas con variables y con flex.
+Te dejo enlace por si quieres pegar un vistazo:
 
-Estaré subiendo los avances y corecciones.
+https://cquiladiaz.github.io/miPrimerLayout/
+
+Saludos!!
